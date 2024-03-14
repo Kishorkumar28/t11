@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const temperature = weatherData.main.temp;
             const weatherDescription = weatherData.weather[0].description;
 
-            const weatherinfo=`Temperature: ${temperature},K \n Weather Description: ${weatherDescription}`
+            const weatherinfo=`Temperature: ${temperature} K \n Weather Description: ${weatherDescription}`
             alert(weatherinfo)
             // Update weather information in the card
             weatherInfoContainer.innerHTML = `
