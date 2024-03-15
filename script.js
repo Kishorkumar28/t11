@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   function fetchWeather(countryName) {
     // Fetch weather data from OpenWeatherMap API
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${countryName}&appid=6314eeb6835ad85e317814783e2c5e7e`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${countryName}&appid={Your_App_Id}`)
         .then(response => response.json())
         .then(weatherData => {
             // Extract weather information
